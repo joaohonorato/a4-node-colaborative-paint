@@ -82,7 +82,7 @@ export class CanvasDirective implements AfterViewInit {
       this.makeRequest();
     }
   }
-  @HostBinding('style.background') background = 'black';
+  @HostBinding('style.background') background = 'white';
 
   makeRequest() {
     // Make a request to the server containing the user's Id and the line array.
